@@ -1,0 +1,21 @@
+.a{
+	background: url(https://i0.wp.com/unusualplaces.org/wp-content/uploads/2018/11/IMG_6145.jpg);
+	background-size: 100% 100%;
+	border: 12px solid rgba(255, 255, 255, 0.25);
+	padding: 10px;
+	border-clip: border-box;
+}
+.b{
+	background: url(https://i0.wp.com/unusualplaces.org/wp-content/uploads/2018/11/IMG_6145.jpg);
+	background-repeat: no-repeat;
+	border: 15px dotted blue;
+	padding: 15px;
+    background-clip: padding-box;
+}
+.c{
+	background: url(https://i0.wp.com/unusualplaces.org/wp-content/uploads/2018/11/IMG_6145.jpg);
+	background-repeat: no-repeat;
+	border: 10px dashed green;
+	padding: 12px;
+	background-clip: content-box;
+}
